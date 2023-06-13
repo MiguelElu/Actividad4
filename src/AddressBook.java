@@ -132,7 +132,7 @@ public class AddressBook {
         for (String number: directorio.keySet()) {
             String key = number.toString();
             String value = directorio.get(number).toString();
-            System.out.println(key + " " + value);
+            System.out.println(key + ":" + value);
         }
 
 
